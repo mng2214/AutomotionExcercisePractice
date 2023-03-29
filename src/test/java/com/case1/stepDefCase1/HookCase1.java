@@ -15,8 +15,8 @@ public class HookCase1 {
 
     @Before
     public void setup() {
-       // driver.get(ConfigReader.readProperty("testcase1"));
-        driver.get("http://automationexercise.com");
+       driver.get(ConfigReader.readProperty("testcase"));
+       //driver.get("http://automationexercise.com");
 
     }
 

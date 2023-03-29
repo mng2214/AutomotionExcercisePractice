@@ -8,9 +8,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",//feature files
         glue = "com/case1/stepDefCase1", //step definitions
-        dryRun = false//getting snips without executing
+        dryRun = false,//getting snips without executing
         //tags = "@scenarioOutline"
-        //plugin = {"pretty", "html:target/uiReport.html", "rerun:target/uiFailedTests.txt"}
+        plugin = {"pretty", "html:target/uiReport.html", "rerun:target/uiFailedTests.txt"}
         //and refers to one scenario
         //or refers to multiple scenarios
 )
