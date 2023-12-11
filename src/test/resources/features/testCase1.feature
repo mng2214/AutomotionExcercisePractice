@@ -7,7 +7,7 @@ Feature: Register NEW User Feature Validation for  Automation Exercise WebSite
     And User verifies 'ENTER ACCOUNT INFORMATION' is visible
     And User fills 'Pass123' '1','11' ,'1993'
     And select Sign up for our newsletter and Receive special offers from our partners!
-    And User fills all personal info  'artur', 'arturTest', 'codefish', '6622 ', 'West avenue', 'United States', 'IL', 'Chicago', '60601','773-999-8888'
+    And User fills all personal info  'artur', 'arturTest', 'IT-Company', '6622 ', 'West avenue', 'United States', 'IL', 'Chicago', '60601','773-999-8888'
     And User clicks Create Account button and verifies that 'ACCOUNT CREATED!'
     And User Click Continue button before Verify that Logged in as 'artur10' is visible
     And Click Delete Account button
