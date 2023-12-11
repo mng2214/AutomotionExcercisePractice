@@ -5,18 +5,15 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.WebDriver;
 import utils.BrowserUtils;
-import utils.ConfigReader;
 import utils.DriverHelper;
 
-import java.util.Scanner;
-
-public class HookCase1 {
+public class HookClass {
     WebDriver driver = DriverHelper.getDriver();
 
     @Before
     public void setup() {
-       driver.get(ConfigReader.readProperty("testcase"));
-       //driver.get("http://automationexercise.com");
+     //  driver.get(ConfigReader.readProperty("testcase"));
+       driver.get("http://automationexercise.com");
 
     }
 

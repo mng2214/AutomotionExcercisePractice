@@ -8,7 +8,7 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import utils.DriverHelper;
 
-public class StepDefCase1 {
+public class StepDef {
     WebDriver driver = DriverHelper.getDriver();
     Case1Pages case1Pages = new Case1Pages(driver);
 
